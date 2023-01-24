@@ -13,8 +13,9 @@ Simple lambda handlers for dynamo DB
   deletePerson --
   handler name - com.dynamo.handler.deletePerson
   
+5. Upload the -shaded.jar file present inside the target directory in the local machine. ( Jar will get generate after running step 2 ) 
   
-5. start testing with the below json request -- 
+6. start testing with the below json request -- 
 
 createPerson - 
 {
